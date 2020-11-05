@@ -12,13 +12,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Automated
-$(call inherit-product, vendor/google/gms/gms-vendor.mk)
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/google/gms
 
+PRODUCT_PACKAGES += \
+    GoogleServicesFramework \
+    GoogleContactsSyncAdapter \
+    GmsCore \
+    Phonesky
   
 # Properties
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.com.google.gmsversion=11_202010 \
+    ro.com.google.gmsversion=11_202011 \
     ro.opa.eligible_device=true
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)

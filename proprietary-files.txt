@@ -15,6 +15,5 @@
 #GApps
 -product/app/GoogleContactsSyncAdapter/GoogleContactsSyncAdapter.apk;PRESIGNED
 -product/priv-app/GmsCore/GmsCore.apk;PRESIGNED
--product/priv-app/GmsCore/m/independent/AndroidPlatformServices.apk;PRESIGNED
 -product/priv-app/Phonesky/Phonesky.apk;PRESIGNED
 -system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk;PRESIGNED
