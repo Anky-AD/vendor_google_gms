@@ -15,10 +15,19 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/google/gms
 
+# Permissions
+$(call inherit-product, vendor/google/gms/permissions.mk)
+
+# Libs
+$(call inherit-product, vendor/google/gms/libs.mk)
+
+# Packages
 PRODUCT_PACKAGES += \
     GoogleServicesFramework \
     GoogleContactsSyncAdapter \
+    GoogleCalendarSyncAdapter \
     GmsCore \
+    AndroidPlatformServices \
     Phonesky
   
 # Properties

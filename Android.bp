@@ -44,9 +44,32 @@ android_app_import {
 }
 
 android_app_import {
+	name: "GoogleCalendarSyncAdapter",
+	owner: "google",
+	apk: "proprietary/product/app/GoogleCalendarSyncAdapter/GoogleCalendarSyncAdapter.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}
+
+android_app_import {
 	name: "GmsCore",
 	owner: "google",
 	apk: "proprietary/product/priv-app/GmsCore/GmsCore.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
+
+android_app_import {
+	name: "AndroidPlatformServices",
+	owner: "google",
+	apk: "proprietary/product/priv-app/GmsCore/m/independent/AndroidPlatformServices.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -64,5 +87,33 @@ android_app_import {
 		enabled: false,
 	},
 	privileged: true,
+	product_specific: true,
+}
+
+dex_import {
+	name: "com.google.android.dialer.support",
+	owner: "google",
+	jars: ["proprietary/product/framework/com.google.android.dialer.support.jar"],
+	product_specific: true,
+}
+
+dex_import {
+	name: "com.google.android.maps",
+	owner: "google",
+	jars: ["proprietary/product/framework/com.google.android.maps.jar"],
+	product_specific: true,
+}
+
+dex_import {
+	name: "com.google.android.media.effects",
+	owner: "google",
+	jars: ["proprietary/product/framework/com.google.android.media.effects.jar"],
+	product_specific: true,
+}
+
+dex_import {
+	name: "com.google.widevine.software.drm",
+	owner: "google",
+	jars: ["proprietary/product/framework/com.google.widevine.software.drm.jar"],
 	product_specific: true,
 }
