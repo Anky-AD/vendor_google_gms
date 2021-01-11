@@ -99,6 +99,9 @@
   <permission name="com.android.launcher.permission.INSTALL_SHORTCUT" />
   <permission name="android.permission.USE_FULL_SCREEN_INTENT" />
   <permission name="com.android.vending.p2p.APP_INSTALL_API" />
+  <permission name="com.sec.android.app.myfiles.permission.READ" />
+  <permission name="com.sec.android.gallery3d.provider2.READ" />
+  <permission name="com.sec.android.gallery3d.provider2.WRITE" />
   <permission name="com.google.android.gms.nearby.exposurenotification.EXPOSURE_CALLBACK" />
   <permission name="com.google.android.gms.auth.cryptauth.permission.KEY_CHANGE" />
   <permission name="com.google.android.gms.auth.proximity.permission.SMS_CONNECT_SETUP_REQUESTED" />
@@ -204,14 +207,12 @@
   <permission name="com.google.android.gms.DRIVE" />
   <permission name="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN" />
   <permission name="android.permission.BODY_SENSORS" />
-  <permission name="com.google.android.gms.permission.GAMES_DEBUG_SETTINGS" />
   <permission name="com.google.android.gms.game.notifications.permission.WRITE" />
   <permission name="com.google.android.gms.permission.C2D_MESSAGE" />
   <permission name="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" />
   <permission name="com.google.android.gms.permission.BROADCAST_TO_GOOGLEHELP" />
   <permission name="com.google.android.launcher.permission.RECEIVE_LAUNCH_BROADCASTS" />
   <permission name="com.google.android.gms.matchstick.permission.BROADCAST_LIGHTER_WEB_INFO" />
-  <permission name="android.permission.BIND_DIRECTORY_SEARCH" />
   <permission name="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
   <permission name="com.google.android.vending.verifier.ACCESS_VERIFIER" />
   <permission name="android.permission.RESET_PASSWORD" />

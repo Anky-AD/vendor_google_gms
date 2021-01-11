@@ -11,6 +11,10 @@
 
 <exceptions>
 
+   <!--
+    The exceptions below have been set by GApps as factory defaults
+    -->
+
     <exception
             package="com.android.vending">
         <!-- Contacts -->

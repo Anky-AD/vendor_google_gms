@@ -3,6 +3,9 @@
     <permission name="android.permission.READ_DEVICE_CONFIG" />
   <permission name="android.permission.WRITE_DEVICE_CONFIG" />
   <permission name="com.google.android.finsky.permission.DSE" />
+  <permission name="android.permission.BLUETOOTH" />
+  <permission name="android.permission.BLUETOOTH_ADMIN" />
+  <permission name="android.permission.CHANGE_WIFI_STATE" />
   <permission name="android.permission.SEND_SMS" />
   <permission name="android.permission.SEND_SMS_NO_CONFIRMATION" />
   <permission name="android.permission.RECEIVE_SMS" />

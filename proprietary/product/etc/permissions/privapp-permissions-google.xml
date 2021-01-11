@@ -63,10 +63,20 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="com.google.android.gms.permission.CAR" />
         <permission name="com.google.android.gms.permission.CAR_SPEED" />
         <permission name="android.permission.REGISTER_CALL_PROVIDER" />
+        <permission name="com.google.android.gms.permission.GAMES_DEBUG_SETTINGS" />
+        <permission name="android.permission.BIND_DIRECTORY_SEARCH" />
     </privapp-permissions>
 
     <privapp-permissions package="com.google.android.pixel.setupwizard">
         <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND" />
         <permission name="android.permission.QUERY_ALL_PACKAGES" />
+    </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.calendar">
+        <permission name="com.google.android.hangouts.START_HANGOUT" />
+    </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.apps.wellbeing">
+        <permission name="android.service.quicksettings.action.REQUEST_LISTENING" />
     </privapp-permissions>
 </permissions>

@@ -25,7 +25,7 @@
     <allow-unthrottled-location package="com.mgoogle.android.gms" />
     <allow-ignore-location-settings package="com.mgoogle.android.gms" />
     <!-- GmsCore must always have network access for GCM and other things. -->
-    <!--allow-in-power-save package="com.google.android.gms" /-->
+    <allow-in-power-save package="com.google.android.gms" />
     <allow-in-data-usage-save package="com.google.android.gms" />
     <allow-unthrottled-location package="com.google.android.gms" />
     <allow-ignore-location-settings package="com.google.android.gms" />
