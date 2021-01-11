@@ -32,7 +32,7 @@ PRODUCT_PACKAGES += \
   
 # Properties
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.com.google.gmsversion=11_202011 \
+    ro.com.google.gmsversion=11_202111 \
     ro.opa.eligible_device=true
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
